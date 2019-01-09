@@ -2,9 +2,9 @@
 @contact: nokikyoar@gmail.com  
 
 
-# 此脚本配置支持Zabbix3.0及以上版本  
-# python脚本支持2.7
-# 监控项如下：
+## 此脚本配置支持Zabbix3.0及以上版本  
+## python脚本支持2.7
+## 监控项如下：
 	- GP数据库总体运行状态
 	- 对节点的数据同步状态进行检查
 	- 对standby的数据同步状态进行检查
@@ -21,7 +21,7 @@
 
 
 
-# 脚本配置办法：
+## 脚本配置办法：
 
 - 上传脚本Zabbix_GP_Monitor.py至/home/zabbix目录下
 - chmod + x Zabbix_GP_Monitor.py
@@ -44,4 +44,4 @@
 		返回：0
 					
  
-# Zabbix直接导入模板即可
+## Zabbix直接导入模板即可
